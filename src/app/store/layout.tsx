@@ -1,10 +1,9 @@
-import Header from "@app/components/Header";
-import React from "react";
+import React, { ReactNode } from "react";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <main>
-      <Header />
+      <nav>Navegación por categorías</nav>
       {children}
     </main>
   );
